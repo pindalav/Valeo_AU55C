@@ -3,7 +3,8 @@
 P4-OpenNIC Framework 
 This framework integrates the VitisNetP4 with Xilinx’s OpenNIC shell. This framework will utilize Xilinx’s VitisNetP4 compiler to compile the P4
 codes into hardware IP. This hardware IP will then be instantiated as a box_plugin for the OpenNIC shell. 
-In addition, we provide three examples to demonstrate the usage of this framework. 
+In addition, we provide three examples to demonstrate the usage of this framework.
+
 Note: Use git submodule update --init to update the submodule open-nic shell 
 Examples 
 We provide three examples: forward, calc and advCalc. These examples are all inherited from VitisNetP4 Examples. 
